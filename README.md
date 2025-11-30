@@ -2,7 +2,7 @@
 ### Interactive SQL Learning App • Lessons • Quizzes • Practice Mode • SQLite Terminal • DB Browser
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
-[![Downloads](https://img.shields.io/github/downloads/lancejepsen/MySQL-Learner/total.svg)](https://github.com/lancejepsen/MySQL-Learner/releases)
+[![Download Installer](https://img.shields.io/badge/Download_Installer-%F0%9F%9A%80-blue?style=for-the-badge)](https://github.com/lancejepsen/MySQL-Learner/releases/download/v1.0/MySQL_Learner_Installer.exe)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)]()
 [![Python](https://img.shields.io/badge/Python-3.10+-yellow.svg)]()
 [![Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)]()
