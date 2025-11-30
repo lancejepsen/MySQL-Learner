@@ -1,0 +1,10 @@
+{
+    "question": "Which join SQLite does NOT support?",
+    "answers": [
+        "LEFT",
+        "RIGHT",
+        "INNER",
+        "FULL"
+    ],
+    "correct": 1
+}

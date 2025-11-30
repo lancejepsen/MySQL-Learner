@@ -1,0 +1,6 @@
+{
+    "id": 15,
+    "question": "List all employees and the names of the projects they are assigned to.",
+    "mysql_example": "SELECT e.first_name, e.last_name, p.project_name FROM employees e JOIN employee_projects ep ON e.id = ep.employee_id JOIN projects p ON ep.project_id = p.id;",
+    "sqlite_example": "SELECT e.first_name, e.last_name, p.project_name FROM employees e JOIN employee_projects ep ON e.id = ep.employee_id JOIN projects p ON ep.project_id = p.id;"
+}

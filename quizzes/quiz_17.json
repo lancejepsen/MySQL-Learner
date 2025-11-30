@@ -1,0 +1,10 @@
+{
+    "question": "Which statement updates data?",
+    "answers": [
+        "ALTER",
+        "MODIFY",
+        "CHANGE",
+        "UPDATE"
+    ],
+    "correct": 3
+}

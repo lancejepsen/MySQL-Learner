@@ -1,0 +1,6 @@
+{
+    "id": 14,
+    "question": "Show all employees hired in 2023.",
+    "mysql_example": "SELECT * FROM employees WHERE hire_date LIKE '2023%';",
+    "sqlite_example": "SELECT * FROM employees WHERE hire_date LIKE '2023%';"
+}

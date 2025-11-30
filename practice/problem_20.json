@@ -1,0 +1,6 @@
+{
+    "id": 20,
+    "question": "Retrieve the names of employees who work with more than one project.",
+    "mysql_example": "SELECT e.first_name, e.last_name FROM employees e JOIN employee_projects ep ON e.id = ep.employee_id GROUP BY e.id HAVING COUNT(ep.project_id) > 1;",
+    "sqlite_example": "SELECT e.first_name, e.last_name FROM employees e JOIN employee_projects ep ON e.id = ep.employee_id GROUP BY e.id HAVING COUNT(ep.project_id) > 1;"
+}

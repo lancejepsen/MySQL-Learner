@@ -1,0 +1,6 @@
+{
+    "id": 10,
+    "question": "List the project names along with how many employees are assigned to each.",
+    "mysql_example": "SELECT p.project_name, COUNT(ep.employee_id) FROM projects p LEFT JOIN employee_projects ep ON p.id = ep.project_id GROUP BY p.id;",
+    "sqlite_example": "SELECT p.project_name, COUNT(ep.employee_id) FROM projects p LEFT JOIN employee_projects ep ON p.id = ep.project_id GROUP BY p.id;"
+}

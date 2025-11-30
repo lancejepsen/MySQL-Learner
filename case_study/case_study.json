@@ -1,0 +1,66 @@
+{
+    "title": "HR Workforce & Project Analytics (SQLite Case Study)",
+    "description": "10-part SQL case study designed for SQLite and Schema A.",
+    "parts": [
+        {
+            "id": 1,
+            "title": "Employee Headcount by Department",
+            "question": "Count how many employees are in each department.",
+            "sqlite_query": "SELECT d.department_name, COUNT(e.id) AS employee_count FROM departments d LEFT JOIN employees e ON d.id = e.department_id GROUP BY d.id, d.department_name ORDER BY employee_count DESC;"
+        },
+        {
+            "id": 2,
+            "title": "Average Salary by Department",
+            "question": "Calculate the average salary for each department.",
+            "sqlite_query": "SELECT d.department_name, AVG(e.salary) AS avg_salary FROM departments d JOIN employees e ON d.id = e.department_id GROUP BY d.id, d.department_name ORDER BY avg_salary DESC;"
+        },
+        {
+            "id": 3,
+            "title": "Employees Hired Per Year",
+            "question": "Show how many employees were hired each year.",
+            "sqlite_query": "SELECT SUBSTR(hire_date, 1, 4) AS hire_year, COUNT(*) AS hires FROM employees GROUP BY hire_year ORDER BY hire_year;"
+        },
+        {
+            "id": 4,
+            "title": "Employees Missing a Department",
+            "question": "Find employees who have no department assigned.",
+            "sqlite_query": "SELECT * FROM employees WHERE department_id IS NULL;"
+        },
+        {
+            "id": 5,
+            "title": "Project Staffing Levels",
+            "question": "Show how many employees are assigned to each project.",
+            "sqlite_query": "SELECT p.project_name, COUNT(ep.employee_id) AS num_assigned FROM projects p LEFT JOIN employee_projects ep ON p.id = ep.project_id GROUP BY p.id, p.project_name ORDER BY num_assigned DESC;"
+        },
+        {
+            "id": 6,
+            "title": "Employees Working on Multiple Projects",
+            "question": "Show which employees work on more than one project.",
+            "sqlite_query": "SELECT e.first_name, e.last_name, COUNT(ep.project_id) AS project_count FROM employees e JOIN employee_projects ep ON e.id = ep.employee_id GROUP BY e.id, e.first_name, e.last_name HAVING project_count > 1 ORDER BY project_count DESC;"
+        },
+        {
+            "id": 7,
+            "title": "Employees With No Projects",
+            "question": "Find employees who are not assigned to any project.",
+            "sqlite_query": "SELECT * FROM employees WHERE id NOT IN (SELECT employee_id FROM employee_projects);"
+        },
+        {
+            "id": 8,
+            "title": "Project Budgets by Department",
+            "question": "Calculate total project budget associated with each department.",
+            "sqlite_query": "SELECT d.department_name, SUM(p.budget) AS total_project_budget FROM departments d JOIN employees e ON d.id = e.department_id JOIN employee_projects ep ON e.id = ep.employee_id JOIN projects p ON ep.project_id = p.id GROUP BY d.id, d.department_name ORDER BY total_project_budget DESC;"
+        },
+        {
+            "id": 9,
+            "title": "Highest-Paid Employee Per Department",
+            "question": "Find the highest-paid employee in each department.",
+            "sqlite_query": "SELECT d.department_name, e.first_name, e.last_name, e.salary FROM employees e JOIN departments d ON e.department_id = d.id WHERE e.salary = (SELECT MAX(salary) FROM employees WHERE department_id = e.department_id);"
+        },
+        {
+            "id": 10,
+            "title": "Employees Above Company Average Salary",
+            "question": "Find employees earning above the company average salary.",
+            "sqlite_query": "SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees) ORDER BY salary DESC;"
+        }
+    ]
+}

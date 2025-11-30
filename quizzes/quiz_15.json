@@ -1,0 +1,10 @@
+{
+    "question": "Which keyword combines result sets?",
+    "answers": [
+        "COMBINE",
+        "UNION",
+        "MERGE",
+        "TOGETHER"
+    ],
+    "correct": 1
+}

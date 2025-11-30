@@ -1,0 +1,6 @@
+{
+    "id": 18,
+    "question": "List all departments with no employees assigned.",
+    "mysql_example": "SELECT * FROM departments WHERE id NOT IN (SELECT department_id FROM employees);",
+    "sqlite_example": "SELECT * FROM departments WHERE id NOT IN (SELECT department_id FROM employees);"
+}

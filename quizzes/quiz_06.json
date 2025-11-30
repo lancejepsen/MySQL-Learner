@@ -1,0 +1,10 @@
+{
+    "question": "Which keyword limits row count?",
+    "answers": [
+        "STOP",
+        "LIMIT",
+        "ROWCOUNT",
+        "END"
+    ],
+    "correct": 1
+}

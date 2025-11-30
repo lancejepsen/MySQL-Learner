@@ -1,0 +1,10 @@
+{
+    "question": "Which clause filters groups?",
+    "answers": [
+        "WHERE",
+        "HAVING",
+        "FILTER",
+        "LIMIT"
+    ],
+    "correct": 1
+}

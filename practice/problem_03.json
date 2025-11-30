@@ -1,0 +1,6 @@
+{
+    "id": 3,
+    "question": "Show the full names of all employees in the IT department.",
+    "mysql_example": "SELECT first_name || ' ' || last_name FROM employees WHERE department_id = 2;",
+    "sqlite_example": "SELECT first_name || ' ' || last_name FROM employees WHERE department_id = 2;"
+}

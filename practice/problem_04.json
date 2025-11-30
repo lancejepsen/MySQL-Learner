@@ -1,0 +1,6 @@
+{
+    "id": 4,
+    "question": "Retrieve the top 5 highest-paid employees.",
+    "mysql_example": "SELECT * FROM employees ORDER BY salary DESC LIMIT 5;",
+    "sqlite_example": "SELECT * FROM employees ORDER BY salary DESC LIMIT 5;"
+}

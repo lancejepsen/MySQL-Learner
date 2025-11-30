@@ -1,0 +1,10 @@
+{
+    "question": "Which keyword selects columns from a table?",
+    "answers": [
+        "CHOOSE",
+        "SELECT",
+        "PICK",
+        "RETURN"
+    ],
+    "correct": 1
+}

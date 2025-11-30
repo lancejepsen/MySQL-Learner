@@ -1,0 +1,10 @@
+{
+    "question": "Which join returns only matching rows?",
+    "answers": [
+        "LEFT",
+        "RIGHT",
+        "INNER",
+        "OUTER"
+    ],
+    "correct": 2
+}

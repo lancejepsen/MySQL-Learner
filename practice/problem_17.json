@@ -1,0 +1,6 @@
+{
+    "id": 17,
+    "question": "Show employees with salaries between 60,000 and 80,000.",
+    "mysql_example": "SELECT * FROM employees WHERE salary BETWEEN 60000 AND 80000;",
+    "sqlite_example": "SELECT * FROM employees WHERE salary BETWEEN 60000 AND 80000;"
+}

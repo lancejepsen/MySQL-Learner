@@ -1,0 +1,6 @@
+{
+    "id": 11,
+    "question": "Retrieve all employees who are NOT assigned to any project.",
+    "mysql_example": "SELECT * FROM employees WHERE id NOT IN (SELECT employee_id FROM employee_projects);",
+    "sqlite_example": "SELECT * FROM employees WHERE id NOT IN (SELECT employee_id FROM employee_projects);"
+}

@@ -1,0 +1,6 @@
+{
+    "id": 9,
+    "question": "Find the total budget of all projects.",
+    "mysql_example": "SELECT SUM(budget) FROM projects;",
+    "sqlite_example": "SELECT SUM(budget) FROM projects;"
+}

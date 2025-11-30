@@ -1,0 +1,10 @@
+{
+    "question": "Which statement deletes data?",
+    "answers": [
+        "DELETE",
+        "REMOVE",
+        "DROP",
+        "CLEAR"
+    ],
+    "correct": 0
+}

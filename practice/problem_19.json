@@ -1,0 +1,6 @@
+{
+    "id": 19,
+    "question": "Show the number of employees hired each year.",
+    "mysql_example": "SELECT SUBSTR(hire_date,1,4) AS year, COUNT(*) FROM employees GROUP BY year;",
+    "sqlite_example": "SELECT SUBSTR(hire_date,1,4) AS year, COUNT(*) FROM employees GROUP BY year;"
+}

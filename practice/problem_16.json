@@ -1,0 +1,6 @@
+{
+    "id": 16,
+    "question": "Find the highest salary in each department.",
+    "mysql_example": "SELECT department_id, MAX(salary) FROM employees GROUP BY department_id;",
+    "sqlite_example": "SELECT department_id, MAX(salary) FROM employees GROUP BY department_id;"
+}

@@ -1,0 +1,6 @@
+{
+    "id": 12,
+    "question": "Show all departments and their total salary expenditure.",
+    "mysql_example": "SELECT department_id, SUM(salary) FROM employees GROUP BY department_id;",
+    "sqlite_example": "SELECT department_id, SUM(salary) FROM employees GROUP BY department_id;"
+}

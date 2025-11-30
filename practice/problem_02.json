@@ -1,0 +1,6 @@
+{
+    "id": 2,
+    "question": "List employees hired after January 1, 2020.",
+    "mysql_example": "SELECT * FROM employees WHERE hire_date > '2020-01-01';",
+    "sqlite_example": "SELECT * FROM employees WHERE hire_date > '2020-01-01';"
+}

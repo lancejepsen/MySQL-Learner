@@ -1,0 +1,10 @@
+{
+    "question": "Which keyword checks for NULL?",
+    "answers": [
+        "IS NULL",
+        "= NULL",
+        "NULL?",
+        "HAS NULL"
+    ],
+    "correct": 0
+}

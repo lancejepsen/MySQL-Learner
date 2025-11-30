@@ -1,0 +1,10 @@
+{
+    "question": "Which keyword skips rows?",
+    "answers": [
+        "OFFSET",
+        "SKIP",
+        "DROP",
+        "MOVE"
+    ],
+    "correct": 0
+}

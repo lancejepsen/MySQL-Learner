@@ -1,0 +1,6 @@
+{
+    "id": 6,
+    "question": "Find the average salary in the Finance department.",
+    "mysql_example": "SELECT AVG(salary) FROM employees WHERE department_id = 4;",
+    "sqlite_example": "SELECT AVG(salary) FROM employees WHERE department_id = 4;"
+}

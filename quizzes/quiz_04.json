@@ -1,0 +1,10 @@
+{
+    "question": "Which operator checks equality?",
+    "answers": [
+        "<>",
+        "=",
+        "!=",
+        "=="
+    ],
+    "correct": 1
+}

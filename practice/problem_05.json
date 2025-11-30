@@ -1,0 +1,6 @@
+{
+    "id": 5,
+    "question": "Count how many employees are in each department.",
+    "mysql_example": "SELECT department_id, COUNT(*) FROM employees GROUP BY department_id;",
+    "sqlite_example": "SELECT department_id, COUNT(*) FROM employees GROUP BY department_id;"
+}

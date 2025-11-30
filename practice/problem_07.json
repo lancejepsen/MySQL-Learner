@@ -1,0 +1,6 @@
+{
+    "id": 7,
+    "question": "List employees whose salary is above the company average.",
+    "mysql_example": "SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees);",
+    "sqlite_example": "SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees);"
+}

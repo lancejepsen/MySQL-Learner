@@ -1,0 +1,10 @@
+{
+    "question": "What is a subquery?",
+    "answers": [
+        "A query inside another query",
+        "A failed query",
+        "A slow query",
+        "A query without WHERE"
+    ],
+    "correct": 0
+}

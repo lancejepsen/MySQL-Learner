@@ -1,0 +1,6 @@
+{
+    "id": 13,
+    "question": "Retrieve all employees whose last name begins with 'M'.",
+    "mysql_example": "SELECT * FROM employees WHERE last_name LIKE 'M%';",
+    "sqlite_example": "SELECT * FROM employees WHERE last_name LIKE 'M%';"
+}

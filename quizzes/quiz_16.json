@@ -1,0 +1,10 @@
+{
+    "question": "Which statement inserts data?",
+    "answers": [
+        "APPEND",
+        "WRITE",
+        "INSERT",
+        "ADD"
+    ],
+    "correct": 2
+}

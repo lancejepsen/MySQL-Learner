@@ -1,0 +1,10 @@
+{
+    "question": "Which clause specifies the table to query?",
+    "answers": [
+        "FROM",
+        "TABLE",
+        "SOURCE",
+        "INTO"
+    ],
+    "correct": 0
+}

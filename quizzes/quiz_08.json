@@ -1,0 +1,10 @@
+{
+    "question": "Which function counts rows?",
+    "answers": [
+        "SUM",
+        "TOTAL",
+        "COUNT",
+        "NUM"
+    ],
+    "correct": 2
+}

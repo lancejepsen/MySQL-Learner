@@ -1,0 +1,10 @@
+{
+    "question": "Which function returns average?",
+    "answers": [
+        "MID",
+        "AVG",
+        "MEAN",
+        "AVERAGE"
+    ],
+    "correct": 1
+}

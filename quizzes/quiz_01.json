@@ -1,0 +1,10 @@
+{
+    "question": "What does SQL stand for?",
+    "answers": [
+        "Structured Query Language",
+        "System Query Logic",
+        "Standard Query Link",
+        "Sequential Query List"
+    ],
+    "correct": 0
+}

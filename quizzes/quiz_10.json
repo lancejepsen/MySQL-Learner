@@ -1,0 +1,10 @@
+{
+    "question": "Which clause groups rows?",
+    "answers": [
+        "GROUP BY",
+        "BUNDLE",
+        "AGGREGATE",
+        "COLLECT"
+    ],
+    "correct": 0
+}

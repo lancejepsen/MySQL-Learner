@@ -1,0 +1,6 @@
+{
+    "id": 1,
+    "question": "Retrieve all employees who work in the Sales department.",
+    "mysql_example": "SELECT * FROM employees WHERE department_id = 3;",
+    "sqlite_example": "SELECT * FROM employees WHERE department_id = 3;"
+}

@@ -1,0 +1,10 @@
+{
+    "question": "Which join keeps all left table rows?",
+    "answers": [
+        "INNER",
+        "LEFT",
+        "OUTER",
+        "RIGHT"
+    ],
+    "correct": 1
+}
