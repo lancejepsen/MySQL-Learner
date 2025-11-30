@@ -173,7 +173,7 @@ dist\MySQL_Learner.exe
 Open:
 
 ```
-installer\installer.iss
+installer.iss
 ```
 
 Click **Build → Compile**.
